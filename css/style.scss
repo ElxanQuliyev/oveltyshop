@@ -1,0 +1,47 @@
+@import "_variables";
+@import "_header";
+
+a{
+  text-decoration: none;
+} 
+.welcome{
+  background-image: url(../image/01.jpg);
+  background-size: cover;
+  padding: 8rem 0;
+  background-position: bottom left;
+  text-align: center;
+  .welcome-text{
+    h1{
+      margin: 0;
+      color: $gold;
+      font-size: 5em;
+      font-weight: 800;
+      font-style: italic;
+    }
+    span{
+      background-color: $gold;
+      color: $white;
+      font-size: 3em;
+      font-weight: 800;
+    }
+    a{
+      border: 1px solid $gold;
+      display: inline-block;
+      background-color: $gold;
+      color: $white;
+      padding: 0 12px;
+      margin: 10px 0;
+      padding-right: 2px;
+      transition: .4s ease-in-out;
+      &:hover{
+        background-color: $black;
+      }
+      i{
+        background-color: $white;
+        color: $gold;
+        padding: 15px;  
+        margin-left: 10px;
+      }
+    }
+  }
+}

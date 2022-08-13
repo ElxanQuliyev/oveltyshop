@@ -1,0 +1,117 @@
+header .header-top {
+  background-color: black;
+  color: white;
+}
+header .header-top .top-left i {
+  padding: 10px;
+  transition: 0.5s;
+}
+header .header-top .top-left i:hover {
+  color: #FFC300;
+}
+header .header-top .top-right ul li {
+  padding: 15px;
+  border-right: 1px solid white;
+}
+header .header-top .top-right ul li:last-child {
+  border-right: none;
+}
+
+.header-middle {
+  margin-top: 30px;
+}
+.header-middle .categories a {
+  background-color: #FFC300;
+  border: 1px solid #FFC300;
+  padding: 10px 35px;
+  font-size: 1.3em;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: white;
+}
+
+.main-header {
+  margin: 25px 0;
+  border-top: 1px solid #eee;
+}
+.main-header .menu ul {
+  padding: 0;
+  margin: 0;
+}
+.main-header .menu ul li.drop-li {
+  position: relative;
+}
+.main-header .menu ul li.drop-li:hover .drop-ul {
+  opacity: 1;
+  visibility: visible;
+}
+.main-header .menu ul li.drop-li .drop-ul {
+  position: absolute;
+  background-color: red;
+  width: 200px;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s;
+}
+.main-header .menu ul li.drop-li .drop-ul li a {
+  padding: 8px;
+}
+.main-header .menu ul li a {
+  padding: 15px;
+  display: block;
+  color: black;
+  font-weight: 600;
+}
+.main-header .header-tel {
+  background-color: #FFC300;
+}
+.main-header .header-tel a {
+  padding: 20px 60px;
+  display: block;
+  color: white;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.welcome {
+  background-image: url(../image/01.jpg);
+  background-size: cover;
+  padding: 8rem 0;
+  background-position: bottom left;
+  text-align: center;
+}
+.welcome .welcome-text h1 {
+  margin: 0;
+  color: #FFC300;
+  font-size: 5em;
+  font-weight: 800;
+  font-style: italic;
+}
+.welcome .welcome-text span {
+  background-color: #FFC300;
+  color: white;
+  font-size: 3em;
+  font-weight: 800;
+}
+.welcome .welcome-text a {
+  border: 1px solid #FFC300;
+  display: inline-block;
+  background-color: #FFC300;
+  color: white;
+  padding: 0 12px;
+  margin: 10px 0;
+  padding-right: 2px;
+  transition: 0.4s ease-in-out;
+}
+.welcome .welcome-text a:hover {
+  background-color: black;
+}
+.welcome .welcome-text a i {
+  background-color: white;
+  color: #FFC300;
+  padding: 15px;
+  margin-left: 10px;
+}/*# sourceMappingURL=style.css.map */
